@@ -1,0 +1,6 @@
+a=input("What date is your birthday?")
+b=input("What date is your birthday?")
+c=input("What date is your birthday?")
+d=input("What date is your birthday?")
+e=input("What date is your birthday?")
+print("\nThe dates are","\n",a, "\n",b, "\n",c, "\n",d, "\n",e)
