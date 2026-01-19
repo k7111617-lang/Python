@@ -1,0 +1,5 @@
+print("I have",4,"notebooks in my hand")
+print("My name is \nKabir")
+print("The sky is blue",end=". ")
+print("Grass is green")
+print("Hello","Bye",sep=" Good") 
