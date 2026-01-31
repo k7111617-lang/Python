@@ -1,0 +1,6 @@
+a=(input("Enter a number: "))
+b=input("Enter a character: ")
+c=input("Enter a symbol:")
+print(ord(a))
+print(ord(b))
+print(ord(c))
