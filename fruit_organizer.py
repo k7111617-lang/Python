@@ -1,0 +1,21 @@
+basket_1={"Mango", "Kiwi", "Mango", "Apple", "Banana"}
+basket_2={"Pomegranate", "Kiwi", "Avocado", "Onion"}
+print("Basket 1 is:", basket_1)
+print("Basket 2 is:", basket_2)
+x=basket_1.intersection(basket_2)
+print("The common fruit(s) are: ", x)
+import array as arr
+fruits_count=arr.array('i',[3,5,4,4,4,4,4,4,4,])
+print("Array is:", fruits_count)
+fruits_count.insert(0,8)
+fruits_count.append(7)
+print("New array is:", fruits_count)
+y=fruits_count.count(4)
+print("Number 4 appears", y, "times.")
+fruits_count.reverse()
+print("The reversed array is: ", fruits_count)
+print("FRUITS BASKET ORGANIZER")
+print("basket 1:", basket_1)
+print("basket 2:", basket_2)
+print("shared fruits:",x )
+print("total fruits:", fruits_count)
